@@ -1,0 +1,11 @@
+# Ignore output files
+outputs/
+*.ckpt
+*.log
+*.h5
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
