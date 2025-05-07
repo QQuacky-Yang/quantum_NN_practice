@@ -1,11 +1,42 @@
-# Ignore output files
-outputs/
-*.ckpt
-*.log
-*.h5
-
-# Python cache
+# Python cache and compiled files
 __pycache__/
-*.pyc
+*.py[cod]
+*.so
 
-# Jupyter checkpoints
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+.env/
+.venv/
+env/
+venv/
+
+# Output artifacts
+outputs/
+*.log
+*.ckpt
+*.pt
+*.h5
+*.onnx
+
+# Data files
+data/raw/
+data/processed/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE and editor settings
+.vscode/
+.idea/
+
+# Python dependency files
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# Miscellaneous
+*.swp
